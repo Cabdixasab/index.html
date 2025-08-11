@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EMIS Hubinta</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background-color: #f9f9f9; color: #222; }
+
+    /* Top blue bar */
+    .topbar {
+        background-color: #1976d2;
+        padding: 10px;
+        color: white;
+        position: relative;
+    }
+    .menu-icon {
+        font-size: 26px;
+        cursor: pointer;
+        position: absolute;
+        left: 15px;
+        top: 8px;
+    }
+
+    /* Ministry banner */
+    .banner {
+        background-color: white;
+        text-align: center;
+        padding: 15px;
+    }
+    .banner img {
+        max-width: 100%;
+        height: auto;
+    }
+    .banner-bottom {
+        height: 4px;
+        background-color: #1976d2;
+    }
+
+    /* Description text */
+    .description {
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        line-height: 1.4;
+    }
+
+    /* Search box */
+    .search-box {
+        background-color: white;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .search-box label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 8px;
+    }
+    .search-box input {
+        padding: 8px;
+        width: 200px;
+        max-width: 80%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .search-box button {
+        padding: 8px 15px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+    }
+    .btn-search { background-color: #1976d2; }
+    .btn-reset { background-color: #333; }
+
+    /* Result section */
+    .result {
+        background-color: white;
+        margin: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .result img {
+        width: 150px;
+        height: auto;
+        margin: 15px;
+        border: 1px solid #ccc;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+    }
+    table tr td {
+        padding: 8px 12px;
+        border-top: 1px solid #eee;
+    }
+    table tr td:first-child {
+        font-weight: bold;
+        width: 40%;
+    }
+</style>
+</head>
+<body>
+
+<!-- Top blue bar -->
+<div class="topbar">
+    <div class="menu-icon">&#9776;</div>
+</div>
+
+<!-- Ministry banner -->
+<div class="banner">
+    <img src="https://i.ibb.co/nq44nRfQ/MOE-banner.png" alt="Astaan Wasaarad">
+</div>
+<div class="banner-bottom"></div>
+
+<!-- Description -->
+<div class="description">
+    Sanad Dugsiyeedka 2024/2025<br>
+    Bogga Hubinta Ardayda Fasalada 8aad iyo 12aad ee Ka Diiwaangashan Nidaamka EMIS.
+</div>
+
+<!-- Search box -->
+<div class="search-box">
+    <label for="emis">EMIS Lambarka</label>
+    <input type="text" id="emis" value="1419283">
+    <button class="btn-search">SEARCH</button>
+    <button class="btn-reset">RESET</button>
+</div>
+
+<!-- Result -->
+<div class="result">
+    <img src="https://i.ibb.co/JFdy06TD/IMG-20250811-WA0009.jpg" alt="Sawirka Ardayga">
+    <table>
+        <tr>
+            <td>EMIS Lambarka</td>
+            <td>1419283</td>
+        </tr>
+        <tr>
+            <td>Magaca Ardayga</td>
+            <td>Ali Musdhaf Mohamed Abdullahi</td>
+        </tr>
+        <tr>
+            <td>Magaca Hooyada</td>
+            <td>Maryan</td>
+        </tr>
+        <tr>
+            <td>Magaca Dugsiga</td>
+            <td>Iqra</td>
+        </tr>
+        <tr>
+            <td>Fasalka</td>
+            <td>Form 4</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
